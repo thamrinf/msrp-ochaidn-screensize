@@ -1,0 +1,65 @@
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Create two unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+.left {
+  width: 25%;
+}
+
+.right {
+  width: 75%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+</head>
+<body>
+
+<h2>Two Unequal Columns</h2>
+
+<a href="link/rcce.html" target="_blank" title="Landings">
+    <li>
+        <div class="row">
+            <div class="column left" style="background-color: transparent;">
+                <p><span style=font-size:3.7rem>
+                    <svg class="fa-medkit" style="color:#6CDBC7">
+                        <use xlink:href="#fa-medkit"></use></svg>
+                    </span>  
+                </p>
+            </div>
+            <div class="column right" style="background-color:#bbb;">
+                <span style="font-size:2.3rem" !important>
+                    Risk Communications and Community Engagement Risk Communications and Community Engagement 
+                </span>
+            </div>
+            </div>
+    </li>
+</a>
+
+</body>
+</html>
+
+<!-- 
+<div class="column left" style="background-color:#aaa;">
+    <svg fa-comments-o" style="color:#6CDBC7; text-align: center; font-size:4.3rem">
+      <use xlink:href="#fa-comments-o"></use>
+    </svg>
+  </div>
+  <div class="column right" style="text-align: left; background-color:#aaa; font-size:2.3rem" !important>
+    <h2>Risk Communications and Community Engagement</h2>
+  </div>
+    </br> Partners’ Response Overview - Activities, Vulnerabilities, Gaps and Constraints.
+</div> -->
